@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="left"
+    android:background="#76df97"
+
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.raj.registrationform.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:text="Registation Form"
+        android:layout_margin="20dp"
+        android:text="Registration Form"
+        android:textSize="20sp"
+        android:textColor="#03086c"/>
+
+    <EditText
+
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Last Name"
+        />
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Mobile No"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+
+        />
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et5"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Set Password"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et6"
+        android:gravity="center"
+        android:layout_margin="10dp"
+
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/b1"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#f74724"/>
+</LinearLayout>
